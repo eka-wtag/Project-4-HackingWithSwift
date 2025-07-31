@@ -13,6 +13,9 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     var webView: WKWebView!
     var progressView: UIProgressView!
+    var websites: [String] = []
+    var notAllowedSites: [String] = []
+    var url: URL!
     
     override func loadView() {
         webView = WKWebView()
@@ -32,14 +35,14 @@ class ViewController: UIViewController, WKNavigationDelegate {
         progressView.sizeToFit()
         let progressButton = UIBarButtonItem(customView: progressView)
         
-        toolbarItems = [progressButton, spacer, refresh]
+        let back = UIBarButtonItem(title: "Back", style: .plain, target: webView, action: #selector(webView.goBack))
+        let forward = UIBarButtonItem(title: "Forward", style: .plain, target: webView, action: #selector(webView.goForward))
+        
+        toolbarItems = [back, progressButton, spacer, refresh, forward]
         navigationController?.isToolbarHidden = false
 
         webView.addObserver(self, forKeyPath: #keyPath(WKWebView.estimatedProgress), options: .new, context: nil)
-        
-        
-        let url = URL(string: "https://www.hackingwithswift.com/100")!
-        
+
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
         
@@ -47,8 +50,9 @@ class ViewController: UIViewController, WKNavigationDelegate {
     
     @objc func openTapped() {
         let ac = UIAlertController(title: "Open Page...", message: nil, preferredStyle: .actionSheet)
-        ac.addAction(UIAlertAction(title: "apple.com", style: .default, handler: openPage))
-        ac.addAction(UIAlertAction(title: "hackingwithswift.com", style: .default, handler: openPage))
+        for website in websites {
+            ac.addAction(UIAlertAction(title: website, style: .default, handler: openPage))
+        }
         ac.addAction(UIAlertAction(title: "Cancel", style: .cancel))
         ac.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
         
@@ -70,6 +74,36 @@ class ViewController: UIViewController, WKNavigationDelegate {
         if keyPath == "estimatedProgress" {
             self.progressView.progress = Float(self.webView.estimatedProgress)
         }
+    }
+    
+    func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping @MainActor (WKNavigationActionPolicy) -> Void) {
+        
+        guard let host = navigationAction.request.url?.host else { decisionHandler(.cancel); return }
+        
+        var safe = true
+        for website in notAllowedSites {
+            if host.contains(website) {
+                safe = false
+                break
+            }
+        }
+        if safe==true {
+            decisionHandler(.allow)
+        }
+        else {
+            showAlert(title: "Restricted Page", message: "Do you want to proceed?", decisionHandler: decisionHandler)
+        }
+    }
+    
+    private func showAlert(title: String, message: String, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
+        let ac = UIAlertController(title: title, message: message, preferredStyle: .alert)
+        ac.addAction(UIAlertAction(title: "Yes", style: .default) { _ in
+            decisionHandler(.allow)
+        })
+        ac.addAction(UIAlertAction(title: "No", style: .cancel) { _ in
+            decisionHandler(.cancel)
+        })
+        present(ac, animated: true)
     }
     
     deinit {
