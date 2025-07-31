@@ -1,0 +1,576 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		C2C9D7882E3B29A1007FC8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C9D7692E3B299F007FC8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C9D7702E3B299F007FC8D7;
+			remoteInfo = "WellDevTraining_Project 4";
+		};
+		C2C9D7922E3B29A1007FC8D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C2C9D7692E3B299F007FC8D7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2C9D7702E3B299F007FC8D7;
+			remoteInfo = "WellDevTraining_Project 4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C2C9D7712E3B299F007FC8D7 /* WellDevTraining_Project 4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WellDevTraining_Project 4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C9D7872E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WellDevTraining_Project 4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C9D7912E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "WellDevTraining_Project 4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		C2C9D7992E3B29A1007FC8D7 /* Exceptions for "WellDevTraining_Project 4" folder in "WellDevTraining_Project 4" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = C2C9D7702E3B299F007FC8D7 /* WellDevTraining_Project 4 */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		C2C9D7732E3B299F007FC8D7 /* WellDevTraining_Project 4 */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				C2C9D7992E3B29A1007FC8D7 /* Exceptions for "WellDevTraining_Project 4" folder in "WellDevTraining_Project 4" target */,
+			);
+			path = "WellDevTraining_Project 4";
+			sourceTree = "<group>";
+		};
+		C2C9D78A2E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WellDevTraining_Project 4Tests";
+			sourceTree = "<group>";
+		};
+		C2C9D7942E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "WellDevTraining_Project 4UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C2C9D76E2E3B299F007FC8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C9D7842E3B29A1007FC8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C9D78E2E3B29A1007FC8D7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C2C9D7682E3B299F007FC8D7 = {
+			isa = PBXGroup;
+			children = (
+				C2C9D7732E3B299F007FC8D7 /* WellDevTraining_Project 4 */,
+				C2C9D78A2E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests */,
+				C2C9D7942E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests */,
+				C2C9D7722E3B299F007FC8D7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C2C9D7722E3B299F007FC8D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C2C9D7712E3B299F007FC8D7 /* WellDevTraining_Project 4.app */,
+				C2C9D7872E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests.xctest */,
+				C2C9D7912E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C2C9D7702E3B299F007FC8D7 /* WellDevTraining_Project 4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C9D79A2E3B29A1007FC8D7 /* Build configuration list for PBXNativeTarget "WellDevTraining_Project 4" */;
+			buildPhases = (
+				C2C9D76D2E3B299F007FC8D7 /* Sources */,
+				C2C9D76E2E3B299F007FC8D7 /* Frameworks */,
+				C2C9D76F2E3B299F007FC8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				C2C9D7732E3B299F007FC8D7 /* WellDevTraining_Project 4 */,
+			);
+			name = "WellDevTraining_Project 4";
+			packageProductDependencies = (
+			);
+			productName = "WellDevTraining_Project 4";
+			productReference = C2C9D7712E3B299F007FC8D7 /* WellDevTraining_Project 4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2C9D7862E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C9D79F2E3B29A1007FC8D7 /* Build configuration list for PBXNativeTarget "WellDevTraining_Project 4Tests" */;
+			buildPhases = (
+				C2C9D7832E3B29A1007FC8D7 /* Sources */,
+				C2C9D7842E3B29A1007FC8D7 /* Frameworks */,
+				C2C9D7852E3B29A1007FC8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2C9D7892E3B29A1007FC8D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C2C9D78A2E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests */,
+			);
+			name = "WellDevTraining_Project 4Tests";
+			packageProductDependencies = (
+			);
+			productName = "WellDevTraining_Project 4Tests";
+			productReference = C2C9D7872E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2C9D7902E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2C9D7A22E3B29A1007FC8D7 /* Build configuration list for PBXNativeTarget "WellDevTraining_Project 4UITests" */;
+			buildPhases = (
+				C2C9D78D2E3B29A1007FC8D7 /* Sources */,
+				C2C9D78E2E3B29A1007FC8D7 /* Frameworks */,
+				C2C9D78F2E3B29A1007FC8D7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2C9D7932E3B29A1007FC8D7 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				C2C9D7942E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests */,
+			);
+			name = "WellDevTraining_Project 4UITests";
+			packageProductDependencies = (
+			);
+			productName = "WellDevTraining_Project 4UITests";
+			productReference = C2C9D7912E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C2C9D7692E3B299F007FC8D7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					C2C9D7702E3B299F007FC8D7 = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					C2C9D7862E3B29A1007FC8D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C2C9D7702E3B299F007FC8D7;
+					};
+					C2C9D7902E3B29A1007FC8D7 = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = C2C9D7702E3B299F007FC8D7;
+					};
+				};
+			};
+			buildConfigurationList = C2C9D76C2E3B299F007FC8D7 /* Build configuration list for PBXProject "WellDevTraining_Project 4" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C2C9D7682E3B299F007FC8D7;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = C2C9D7722E3B299F007FC8D7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C2C9D7702E3B299F007FC8D7 /* WellDevTraining_Project 4 */,
+				C2C9D7862E3B29A1007FC8D7 /* WellDevTraining_Project 4Tests */,
+				C2C9D7902E3B29A1007FC8D7 /* WellDevTraining_Project 4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C2C9D76F2E3B299F007FC8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C9D7852E3B29A1007FC8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C9D78F2E3B29A1007FC8D7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C2C9D76D2E3B299F007FC8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C9D7832E3B29A1007FC8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2C9D78D2E3B29A1007FC8D7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C2C9D7892E3B29A1007FC8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C9D7702E3B299F007FC8D7 /* WellDevTraining_Project 4 */;
+			targetProxy = C2C9D7882E3B29A1007FC8D7 /* PBXContainerItemProxy */;
+		};
+		C2C9D7932E3B29A1007FC8D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2C9D7702E3B299F007FC8D7 /* WellDevTraining_Project 4 */;
+			targetProxy = C2C9D7922E3B29A1007FC8D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C2C9D79B2E3B29A1007FC8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WellDevTraining_Project 4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WellDev.WellDevTraining-Project-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C2C9D79C2E3B29A1007FC8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "WellDevTraining_Project 4/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WellDev.WellDevTraining-Project-4";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C2C9D79D2E3B29A1007FC8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C2C9D79E2E3B29A1007FC8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C2C9D7A02E3B29A1007FC8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WellDev.WellDevTraining-Project-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellDevTraining_Project 4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellDevTraining_Project 4";
+			};
+			name = Debug;
+		};
+		C2C9D7A12E3B29A1007FC8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WellDev.WellDevTraining-Project-4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WellDevTraining_Project 4.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WellDevTraining_Project 4";
+			};
+			name = Release;
+		};
+		C2C9D7A32E3B29A1007FC8D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WellDev.WellDevTraining-Project-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WellDevTraining_Project 4";
+			};
+			name = Debug;
+		};
+		C2C9D7A42E3B29A1007FC8D7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3MLZ4T366J;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "WellDev.WellDevTraining-Project-4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "WellDevTraining_Project 4";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C2C9D76C2E3B299F007FC8D7 /* Build configuration list for PBXProject "WellDevTraining_Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C9D79D2E3B29A1007FC8D7 /* Debug */,
+				C2C9D79E2E3B29A1007FC8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C9D79A2E3B29A1007FC8D7 /* Build configuration list for PBXNativeTarget "WellDevTraining_Project 4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C9D79B2E3B29A1007FC8D7 /* Debug */,
+				C2C9D79C2E3B29A1007FC8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C9D79F2E3B29A1007FC8D7 /* Build configuration list for PBXNativeTarget "WellDevTraining_Project 4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C9D7A02E3B29A1007FC8D7 /* Debug */,
+				C2C9D7A12E3B29A1007FC8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2C9D7A22E3B29A1007FC8D7 /* Build configuration list for PBXNativeTarget "WellDevTraining_Project 4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2C9D7A32E3B29A1007FC8D7 /* Debug */,
+				C2C9D7A42E3B29A1007FC8D7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C2C9D7692E3B299F007FC8D7 /* Project object */;
+}
